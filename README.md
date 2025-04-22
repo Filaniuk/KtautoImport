@@ -1,4 +1,4 @@
-need to specify to your own STD_LIB path f.e. ```STD_LIB="/mnt/c/My_Progs/IntelliJ IDEA 2024.1.2/plugins/Kotlin/kotlinc/lib/kotlin-stdlib.jar"``` which is used in runtime
+need to specify the path to your own STD_LIB path f.e. ```STD_LIB="/mnt/c/My_Progs/IntelliJ IDEA 2024.1.2/plugins/Kotlin/kotlinc/lib/kotlin-stdlib.jar"```  which is used at runtime.
 ```bash
 java -cp "Finder.jar:$STD_LIB" mfilaniu.\MainKt AbstractCol
 ```
